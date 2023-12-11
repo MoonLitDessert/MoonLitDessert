@@ -57,6 +57,7 @@
             // Update this function to show your USDT QR Code
             alert("Please replace this with your actual USDT QR code presentation code.");
         }
+        
     </script>
 </head>
 <body>
@@ -138,7 +139,55 @@
             </details>
         </li>
     </ul>
-    <p class="important-note">注：所有产品一般一周内可达，除非特殊情况（如暴雨等）。Vyvanse产品需要预订。</p>
-    <p class="important-note">价格以USDT支付，点击<a href="#" onclick="showPaymentQRCode(); return false;">这里</a>显示付款地址，更多信息请访问我们的Telegram频道<a href="https://t.me/MoonLitDessert" target="_blank">https://t.me/MoonLitDessert</a>.</p>
+    <p class="important-note">注：所有产品一周内可达，特殊情况除外（如10级地震、16级台风、丧尸病毒）。Vyvanse产品需要预订。</p>
+    <p class="important-note">USDT支付（1USDT等于7.4人民币）。您可以在下方的计算器中得到计算结果。点击<a href="#" onclick="showPaymentQRCode(); return false;">这里</a>显示付款地址，更多信息请访问我们的Telegram频道<a href="https://t.me/MoonLitDessert" target="_blank">https://t.me/MoonLitDessert</a>.</p>
+    <!-- 添加显示二维码和地址的区域 -->
+    <div id="payment-info" style="display: none;">
+        <img id="qr-code" src="https://github.com/MoonLitDessert/MoonLitDessert/blob/main/USDT_TRC20.jpg?raw=true" alt="USDT Payment QR Code">
+        <p id="wallet-address">TBYTqZaXAbQH6wrTHdZErw5dQqGYPAYJVU</p> <button onclick="copyWalletAddress()">复制地址</button>
+    </div>
+    <div id="currency-converter">
+        <input type="number" id="rmb-input" placeholder="输入人民币金额">
+        <button onclick="convertCurrency()">转换为USDT</button>
+        <p id="usdt-output"></p>
+    </div>
+    <p class="important-note" id="exchange-rate">注：USDT支付，1 USDT 等于 xx 人民币。</p>
+</body>
+
+<script>
+    // 负责显示二维码和钱包地址的函数
+    function showPaymentQRCode() {
+        document.getElementById('payment-info').style.display = 'block';
+    }
+
+    // 负责复制钱包地址的函数
+    function copyWalletAddress() {
+        var textArea = document.createElement("textarea");
+        textArea.value = document.getElementById('wallet-address').textContent;
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        alert("已复制地址");
+    }
+    function convertCurrency() {
+    const rmbValue = document.getElementById('rmb-input').value;
+    const usdtValue = (rmbValue / 7.4).toFixed(2);
+    document.getElementById('usdt-output').textContent = usdtValue + ' USDT';
+    // 获取USDT至CNY的实时汇率
+async function getExchangeRate() {
+    const response = await fetch('https://api.binance.com/api/v3/ticker/price?symbol=USDTUSDC');
+    const data = await response.json();
+    return data.price;
+}
+
+// 在窗口加载完成后异步获取汇率
+window.onload = async function() {
+    const rate = await getExchangeRate();
+    document.getElementById('exchange-rate').textContent = '1 USDT 等于 ' + rate.toFixed(2) + ' 人民币';
+}
+}
+</script>
 </body>
 </html>
