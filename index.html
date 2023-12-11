@@ -4,20 +4,20 @@
 <head>
     <title>月光药剂铺 - 药品价格指南</title>
     <style>
-         body {
+        body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
             padding: 20px;
             color: #343a40;
-            max-width: 1200px;   /* Adjust this value to control the width of the content */
-            margin: auto;        /* Center the content */
+            max-width: 1200px;
+            margin: auto;       
         }
 
-
         h1 {
-            color: #4285F4; /* Updated color to light blue */
+            color: #4285F4;
             border-bottom: 1px solid #dee2e6;
             padding-bottom: 10px;
+            text-align: center;
         }
 
         ul {
@@ -32,13 +32,21 @@
             border-radius: 5px;
         }
 
-        /* Updated p tag styles */
+        ul li details summary {
+            text-align: center;
+            outline: none;
+        }
+
+        ul li details summary::-webkit-details-marker {
+            display: none;
+        }
+
         p.product-info {
-            color: #6c757d; /* Updated color to light grey */
+            color: #6c757d;
         }
 
         p.important-note {
-            color: #343a40; /* Updated color to black */
+            color: #343a40;
             font-weight: bold;
         }
 
