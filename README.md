@@ -98,7 +98,7 @@
 <p class="important-note">③由于大部分商品非包邮，需要支付18元到付快递费用（除4F-MPH是包邮），收件手机号不应是空号，以确保能收到快递。</p>
 <p class="important-note">④对于常规地区，商品将在7天内到达；对于偏远地区（新疆，西藏，甘肃，宁夏，青海，内蒙古），商品将在14天内到达。</p>
 <p class="important-note">⑤我们提供全面的保密系统和安全的交付渠道，使用数字货币支付、加密通信、只使用匿名的方式（例如Telegram）进行对话和交易、发件人不知道买方是谁等。这就有效避免了形成证据链。换句话说，即使有人被抓，也无法证明与之接触过的任何人参与了非法活动。</p>
-<p>&nbsp;</p><p class="important-note">完整的商品介绍网站<a href="https://github.com/MoonLitDessert/MoonLitDessert" target="_blank">https://github.com/MoonLitDessert/MoonLitDessert</a>.</p>
+<p>&nbsp;</p><p class="important-note">完整的商品介绍网站<a href="https://moonlitdessert.github.io/MoonLitDessert/" target="_blank">https://moonlitdessert.github.io/MoonLitDessert/</a>.</p>
 <p>&nbsp;</p><p class="important-note">如需其他咨询，或希望与网友讨论，访问我们的Telegram群组<a href="https://t.me/MoonLitDessert" target="_blank">https://t.me/MoonLitDessert</a>.</p>
 <p class="important-note"><!-- 待添加内容 --></p>
 </body>
