@@ -1,67 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>月光药剂铺 - 药品价格指南</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            padding: 20px;
-            color: #343a40;
-            max-width: 1200px;
-            margin: auto;       
-        }
-
-        h1 {
-            color: #4285F4;
-            border-bottom: 1px solid #dee2e6;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            background-color: #e9ecef;
-            margin-bottom: 10px;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        ul li details summary {
-            text-align: center;
-            outline: none;
-        }
-
-        ul li details summary::-webkit-details-marker {
-            display: none;
-        }
-
-        p.product-info {
-            color: #6c757d;
-        }
-
-        p.important-note {
-            color: #343a40;
-            font-weight: bold;
-        }
-
-        a:link, a:visited, a:hover, a:active {
-            color: blue;
-        }
-
-        summary {
-            cursor: pointer;
-            list-style: none;
-        }
-    </style>
-</head>
 <body>
     <h1>月光药剂铺 - 药品价格指南</h1>
     <ul>
@@ -168,7 +105,6 @@
                 <p class="product-info">更大剂量的ISRIB提供了相同的效果，适用于长期使用的用户。它同样参与记忆形成，并带来类似的主观感觉和认知变化，推荐剂量依旧为15-30mg。</p>
             </details>
         </li>
-        
         <li>
             <details>
                 <summary>印度择思达（阿托莫西汀） 100粒 580元</summary>
@@ -242,7 +178,6 @@
             <details>
                 <summary>思诺思 10mg 100粒 3500元</summary>
                 <p class="product-info">思诺思（Modafinil），一种高效的唤醒剂，用于管理过度嗜睡症状，尤其在治疗阻塞性睡眠呼吸暂停和纳尔科勒普症中效果显著。通过刺激多巴胺和去甲肾上腺素传递系统，显著提升警觉性、改善记忆和增强认知功能，特别适合需要长时间集中精力的职业人士和学生。</p>
-
             </details>
         </li>
         <li>
@@ -270,62 +205,30 @@
                 <p class="product-info">专注达（Concerta），一种中枢神经兴奋剂。常用于治疗注意力缺陷多动障碍（ADHD）。它能有效提升专注力和集中度，减少分心情况，特别适用于需要改善注意力和自我控制的患者。此药物适用于长期治疗计划，有助于提高日常生活和学习的质量。</p>
             </details>
         </li>
-        
-        
     </ul>
     <p class="important-note">点击药品条目可以查看相关说明。<p>&nbsp;</p></p>
-    <p class="important-note">点击<a href="#" onclick="showPaymentQRCode(); return false;">这里</a>显示付款地址。</p>
+    <p class="important-note">付款地址</p>
     <!-- 添加显示二维码和地址的区域 -->
     <div id="payment-info" style="display: none;">
         <img id="qr-code" src="https://github.com/MoonLitDessert/MoonLitDessert/blob/main/USDT_TRC20.jpg?raw=true" alt="USDT Payment QR Code">
-        <p id="wallet-address">TBYTqZaXAbQH6wrTHdZErw5dQqGYPAYJVU</p> <button onclick="copyWalletAddress()">复制地址</button>
+        <p id="wallet-address">TBYTqZaXAbQH6wrTHdZErw5dQqGYPAYJVU</p> <button onclick="copyWalletAddress()"></button>
     </div>
     <div id="currency-converter">
-        <input type="number" id="rmb-input" placeholder="输入人民币金额">
-        <button onclick="convertCurrency()">输入人民币数值，转化为USDT</button>
+        <input type="number" id="rmb-input" placeholder="">
+        <button onclick="convertCurrency()"></button>
         <p id="usdt-output"></p>
     </div>
     <p>&nbsp;</p>
     <p class="important-note">注：</p>
-<p class="important-note">①使用USDT支付，1 USDT 视为 1美元，即 7.09441 人民币(参考美元 兑换为 中国人民币 — 最近更新时间：2023年12月31日 UTC 06:56)。您可以在上方的计算器中得到计算结果。</p>
+<p class="important-note">①使用USDT支付，1 USDT 视为 1美元，即 7.09441 人民币(参考美元 兑换为 中国人民币 — 最近更新时间：2023年12月31日 UTC 06:56)。</p>
 <!-- 添加的注释信息 -->
 <p class="important-note">②支付后，将截图发送到我们的邮件moonlitdessert.juicy729@passinbox.com核对，并留下你的收货地址。</p>
 <p class="important-note">③由于大部分商品非包邮，需要支付18元到付快递费用，收件手机号不应是空号，以确保能收到快递。</p>
 <p class="important-note">④对于常规地区，商品将在7天内到达；对于偏远地区（新疆，西藏，甘肃，宁夏，青海，内蒙古），商品将在14天内到达。</p>
 <p class="important-note">⑤我们提供全面的保密系统和安全的交付渠道，使用数字货币支付、加密通信、只使用匿名的方式（例如Telegram）进行对话和交易、发件人不知道买方是谁等。这就有效避免了形成证据链。换句话说，即使有人被抓，也无法证明与之接触过的任何人参与了非法活动。</p>
-
 <p class="important-note">⑥若需求更大程度的匿名：
     大部分药都支持代收快递短信，普通快递（200元/次）。
     但是利他林、阿莫达非尼、Vyvanse只能走到付，无法代收短信。</p>
 <p class="important-note">⑦没注明（国外）直邮的，都是国内发货。</p>
-
 <p>&nbsp;</p><p class="important-note">如需其他咨询，或希望与网友讨论，访问我们的Telegram群组<a href="https://t.me/MoonLitDessert" target="_blank">https://t.me/MoonLitDessert</a>.</p>
 <p class="important-note"><!-- 待添加内容 --></p>
-</body>
-
-<script>
-    // 负责显示二维码和钱包地址的函数
-    function showPaymentQRCode() {
-        document.getElementById('payment-info').style.display = 'block';
-    }
-
-    // 负责复制钱包地址的函数
-    function copyWalletAddress() {
-        var textArea = document.createElement("textarea");
-        textArea.value = document.getElementById('wallet-address').textContent;
-        document.body.appendChild(textArea);
-        textArea.focus();
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-        alert("已复制地址");
-    }
-    function convertCurrency() {
-    const rmbValue = document.getElementById('rmb-input').value;
-    const usdtValue = (rmbValue / 7.09441).toFixed(2);
-    document.getElementById('usdt-output').textContent = usdtValue + ' USDT';
-   
-}
-</script>
-</body>
-</html>
