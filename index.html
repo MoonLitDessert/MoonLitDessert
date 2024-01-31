@@ -12,7 +12,7 @@
             padding: 20px;
             color: #343a40;
             max-width: 1200px;
-            margin: auto;       
+            margin: auto;
         }
 
         h1 {
@@ -32,11 +32,19 @@
             margin-bottom: 10px;
             padding: 10px;
             border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul li details {
+            width: 100%;
+            text-align: center;
         }
 
         ul li details summary {
-            text-align: center;
             outline: none;
+            list-style: none;
         }
 
         ul li details summary::-webkit-details-marker {
@@ -45,6 +53,12 @@
 
         p.product-info {
             color: #6c757d;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            background-color: inherit;
+            border-top: 1px solid #dee2e6;
+            box-sizing: border-box;
         }
 
         p.important-note {
@@ -61,20 +75,29 @@
             list-style: none;
         }
     </style>
+
+
+
 </head>
 <body>
     <h1>月光药剂铺 - 药品价格指南</h1>
+    <div id="summary-container">
+        <!-- 所有的<summary>元素将放在这里 -->
+    </div>
+    <div id="info-container">
+        <!-- 所有的<p class="product-info">元素将放在这里 -->
+    </div>
     <ul>
         <!-- Each list item now contains a details element -->
         <li>
             <details>
-                <summary>瑞版利他林 200粒/盒 14500元</summary>
+                <summary>瑞版利他林 200粒/盒 14900元</summary>
                 <p class="product-info">整盒出售，原厂利他林。</p>
             </details>
         </li>
         <li>
             <details>
-                <summary>JM利他林 100粒/盒 6500元</summary>
+                <summary>JM利他林 100粒/盒 6900元</summary>
                 <p class="product-info">整盒出售，香港制造，相比原厂更划算。</p>
             </details>
         </li>
@@ -86,13 +109,13 @@
         </li>
         <li>
             <details>
-                <summary>Vyvanse 20mg 28粒/瓶 3000元</summary>
+                <summary>Vyvanse 20mg 28粒/瓶 实时价（需要Vyvanse请详询）</summary>
                 <p class="product-info">国内稀有药品，仅限老客户。需要预订。6瓶起售。</p>
             </details>
         </li>
         <li>
             <details>
-                <summary>Vyvanse 50mg 28粒/瓶 5800元</summary>
+                <summary>Vyvanse 50mg 28粒/瓶 实时价（需要Vyvanse请详询）</summary>
                 <p class="product-info">国内稀有药品，仅限老客户。需要预订。6瓶起售。</p>
             </details>
         </li>
@@ -112,28 +135,28 @@
         </li>
         <li>
             <details>
-                <summary>4F-MPH 胶囊 15mg 10粒 624元</summary>
+                <summary>4F-MPH 胶囊 15mg 10粒 780元</summary>
                 <p class="product-info">纯品4F-MPH胶囊 国内发货，无任何法律风险的哌甲酯类药物。利他林的医学改良品，该药物的设计目的是在利他林基础上，实现更小的副作用与更有效的治疗作用。</p>
                 <p class="product-info">效果：显著提升注意力，专注力，动力和耐力。起效迅速，维持8-12小时。耐药缓慢，相比哌甲酯耐药性更低，可长期使用。<img src="https://i.imgur.com/tbThzC8.png" alt="Artistic Representation"></p>
             </details>
         </li>
         <li>
             <details>
-                <summary>4F-MPH 胶囊 15mg 20粒 1248元</summary>
+                <summary>4F-MPH 胶囊 15mg 20粒 1520元</summary>
                 <p class="product-info">纯品4F-MPH胶囊 国内发货，无任何法律风险的哌甲酯类药物。利他林的医学改良品，该药物的设计目的是在利他林基础上，实现更小的副作用与更有效的治疗作用。</p>
                 <p class="product-info">效果：显著提升注意力，专注力，动力和耐力。起效迅速，维持8-12小时。耐药缓慢，相比哌甲酯耐药性更低，可长期使用。<img src="https://i.imgur.com/tbThzC8.png" alt="Artistic Representation"></p>
             </details>
         </li>
         <li>
             <details>
-                <summary>阿莫达非尼 50粒 2300元</summary>
+                <summary>阿莫达非尼 50粒 2500元</summary>
                 <p class="product-info">阿莫达非尼 国内现货。阿莫达非尼是外消旋的药物莫达非尼中具有活性成分的的(−)-(R)-对映异构物，在2007年6月15日被FDA批准使用到临床上；通俗来讲阿莫达非尼是由莫达非尼提炼而来，作为一种中枢兴奋剂，副作用更小。</p>
                 <p class="product-info">由于其强大的觉醒作用和12小时+的药效时长，该药被主要用来治疗嗜睡症。莫达非尼也在适应症外被广泛使用，作为一种认知增强剂。本品具有较大的安全性，对血压和心率无影响，无活动增多、耐受性或反弹性思睡等不良反应，也无潜在的成瘾性，是可以长时间广泛使用的有效的觉醒药物。</p>
             </details>
         </li>
         <li>
             <details>
-                <summary>阿莫达非尼 100粒 4000元</summary>
+                <summary>阿莫达非尼 100粒 4300元</summary>
                 <p class="product-info">阿莫达非尼 国内现货。阿莫达非尼是外消旋的药物莫达非尼中具有活性成分的的(−)-(R)-对映异构物，在2007年6月15日被FDA批准使用到临床上；通俗来讲阿莫达非尼是由莫达非尼提炼而来，作为一种中枢兴奋剂，副作用更小。</p>
                 <p class="product-info">由于其强大的觉醒作用和12小时+的药效时长，该药被主要用来治疗嗜睡症。莫达非尼也在适应症外被广泛使用，作为一种认知增强剂。本品具有较大的安全性，对血压和心率无影响，无活动增多、耐受性或反弹性思睡等不良反应，也无潜在的成瘾性，是可以长时间广泛使用的有效的觉醒药物。</p>
             </details>
@@ -168,7 +191,6 @@
                 <p class="product-info">更大剂量的ISRIB提供了相同的效果，适用于长期使用的用户。它同样参与记忆形成，并带来类似的主观感觉和认知变化，推荐剂量依旧为15-30mg。</p>
             </details>
         </li>
-        
         <li>
             <details>
                 <summary>印度择思达（阿托莫西汀） 100粒 580元</summary>
@@ -224,7 +246,7 @@
             <details>
                 <summary>IDRA-21 400mg 360元</summary>
                 <p class="product-info">与200mg包装相同效果的IDRA-21，但以更大容量和更优惠的价格提供。</p>
-            </details>  
+            </details>
         </li>
         <li>
             <details>
@@ -242,7 +264,6 @@
             <details>
                 <summary>思诺思 10mg 100粒 3500元</summary>
                 <p class="product-info">思诺思（Modafinil），一种高效的唤醒剂，用于管理过度嗜睡症状，尤其在治疗阻塞性睡眠呼吸暂停和纳尔科勒普症中效果显著。通过刺激多巴胺和去甲肾上腺素传递系统，显著提升警觉性、改善记忆和增强认知功能，特别适合需要长时间集中精力的职业人士和学生。</p>
-
             </details>
         </li>
         <li>
@@ -270,8 +291,6 @@
                 <p class="product-info">专注达（Concerta），一种中枢神经兴奋剂。常用于治疗注意力缺陷多动障碍（ADHD）。它能有效提升专注力和集中度，减少分心情况，特别适用于需要改善注意力和自我控制的患者。此药物适用于长期治疗计划，有助于提高日常生活和学习的质量。</p>
             </details>
         </li>
-        
-        
     </ul>
     <p class="important-note">点击药品条目可以查看相关说明。<p>&nbsp;</p></p>
     <p class="important-note">点击<a href="#" onclick="showPaymentQRCode(); return false;">这里</a>显示付款地址。</p>
