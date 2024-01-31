@@ -5,13 +5,13 @@ https://moonlitdessert.github.io/MoonLitDessert/
         <!-- Each list item now contains a details element -->
         <li>
             <details>
-                <summary>瑞版利他林 200粒/盒 14500元</summary>
+                <summary>瑞版利他林 200粒/盒 14900元</summary>
                 <p class="product-info">整盒出售，原厂利他林。</p>
             </details>
         </li>
         <li>
             <details>
-                <summary>JM利他林 100粒/盒 6500元</summary>
+                <summary>JM利他林 100粒/盒 6900元</summary>
                 <p class="product-info">整盒出售，香港制造，相比原厂更划算。</p>
             </details>
         </li>
@@ -23,13 +23,13 @@ https://moonlitdessert.github.io/MoonLitDessert/
         </li>
         <li>
             <details>
-                <summary>Vyvanse 20mg 28粒/瓶 3000元</summary>
+                <summary>Vyvanse 20mg 28粒/瓶 实时价（需要Vyvanse请详询）</summary>
                 <p class="product-info">国内稀有药品，仅限老客户。需要预订。6瓶起售。</p>
             </details>
         </li>
         <li>
             <details>
-                <summary>Vyvanse 50mg 28粒/瓶 5800元</summary>
+                <summary>Vyvanse 50mg 28粒/瓶 实时价（需要Vyvanse请详询）</summary>
                 <p class="product-info">国内稀有药品，仅限老客户。需要预订。6瓶起售。</p>
             </details>
         </li>
@@ -49,28 +49,28 @@ https://moonlitdessert.github.io/MoonLitDessert/
         </li>
         <li>
             <details>
-                <summary>4F-MPH 胶囊 15mg 10粒 624元</summary>
+                <summary>4F-MPH 胶囊 15mg 10粒 780元</summary>
                 <p class="product-info">纯品4F-MPH胶囊 国内发货，无任何法律风险的哌甲酯类药物。利他林的医学改良品，该药物的设计目的是在利他林基础上，实现更小的副作用与更有效的治疗作用。</p>
                 <p class="product-info">效果：显著提升注意力，专注力，动力和耐力。起效迅速，维持8-12小时。耐药缓慢，相比哌甲酯耐药性更低，可长期使用。<img src="https://i.imgur.com/tbThzC8.png" alt="Artistic Representation"></p>
             </details>
         </li>
         <li>
             <details>
-                <summary>4F-MPH 胶囊 15mg 20粒 1248元</summary>
+                <summary>4F-MPH 胶囊 15mg 20粒 1520元</summary>
                 <p class="product-info">纯品4F-MPH胶囊 国内发货，无任何法律风险的哌甲酯类药物。利他林的医学改良品，该药物的设计目的是在利他林基础上，实现更小的副作用与更有效的治疗作用。</p>
                 <p class="product-info">效果：显著提升注意力，专注力，动力和耐力。起效迅速，维持8-12小时。耐药缓慢，相比哌甲酯耐药性更低，可长期使用。<img src="https://i.imgur.com/tbThzC8.png" alt="Artistic Representation"></p>
             </details>
         </li>
         <li>
             <details>
-                <summary>阿莫达非尼 50粒 2300元</summary>
+                <summary>阿莫达非尼 50粒 2500元</summary>
                 <p class="product-info">阿莫达非尼 国内现货。阿莫达非尼是外消旋的药物莫达非尼中具有活性成分的的(−)-(R)-对映异构物，在2007年6月15日被FDA批准使用到临床上；通俗来讲阿莫达非尼是由莫达非尼提炼而来，作为一种中枢兴奋剂，副作用更小。</p>
                 <p class="product-info">由于其强大的觉醒作用和12小时+的药效时长，该药被主要用来治疗嗜睡症。莫达非尼也在适应症外被广泛使用，作为一种认知增强剂。本品具有较大的安全性，对血压和心率无影响，无活动增多、耐受性或反弹性思睡等不良反应，也无潜在的成瘾性，是可以长时间广泛使用的有效的觉醒药物。</p>
             </details>
         </li>
         <li>
             <details>
-                <summary>阿莫达非尼 100粒 4000元</summary>
+                <summary>阿莫达非尼 100粒 4300元</summary>
                 <p class="product-info">阿莫达非尼 国内现货。阿莫达非尼是外消旋的药物莫达非尼中具有活性成分的的(−)-(R)-对映异构物，在2007年6月15日被FDA批准使用到临床上；通俗来讲阿莫达非尼是由莫达非尼提炼而来，作为一种中枢兴奋剂，副作用更小。</p>
                 <p class="product-info">由于其强大的觉醒作用和12小时+的药效时长，该药被主要用来治疗嗜睡症。莫达非尼也在适应症外被广泛使用，作为一种认知增强剂。本品具有较大的安全性，对血压和心率无影响，无活动增多、耐受性或反弹性思睡等不良反应，也无潜在的成瘾性，是可以长时间广泛使用的有效的觉醒药物。</p>
             </details>
