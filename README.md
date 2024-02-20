@@ -2,7 +2,7 @@ https://moonlitdessert.github.io/MoonLitDessert/
 <body>
     <h1>月光药剂铺 - 药品价格指南</h1>
     <ul>
-        <!-- Each list item now contains a details element -->
+        <!-- Each list item now contains a details element --> 
         <li>
             <details>
                 <summary>瑞版利他林 200粒/盒 14900元</summary>
@@ -133,25 +133,6 @@ https://moonlitdessert.github.io/MoonLitDessert/
         </li>
         <li>
             <details>
-                <summary>忆瑞思 3粒体验装 300元</summary>
-                <p class="product-info">忆瑞思，一款专注于治疗认知损伤的药物，能逆转衰老，激活海马体细胞的再生，促进长期记忆的形成。提升工作记忆，扩展思维的工作台，活化脑细胞，显著提升创造力。</p>
-                <p class="product-info">在研究中，忆瑞思能在3天内根治大脑外伤造成的认知损伤。副作用极低，极少数人可能过度活跃。</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>忆瑞思 10粒标准装 900元</summary>
-                <p class="product-info">同忆瑞思3粒体验装效果，但提供更多数量，适合需要长期使用的用户。</p>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary>忆瑞思 30粒礼品装 2400元</summary>
-                <p class="product-info">最大容量的忆瑞思包装，适合作为礼物或长期使用。</p>
-            </details>
-        </li>
-        <li>
-            <details>
                 <summary>IDRA-21 200mg 245元</summary>
                 <p class="product-info">IDRA-21，一种增强学习速度和记忆力的药物。提升神经可塑性，消除脑雾，降低外语陌生感。可能导致时间感知变慢，环境感觉陌生。</p>
             </details>
@@ -195,7 +176,7 @@ https://moonlitdessert.github.io/MoonLitDessert/
         </li>
         <li>
             <details>
-                <summary>心达悦 20mg 28粒/盒 2650元</summary>
+                <summary>心达悦 20mg 28粒/盒 440元</summary> 
                 <p class="product-info">心达悦（Escitalopram），一种SSRI类抗抑郁药，专用于处理重度抑郁症和广泛性焦虑症。通过增加大脑血清素浓度，有效改善情绪，降低焦虑和抑郁症状，适合寻求情绪改善和日常功能恢复的患者。</p>
             </details>
         </li>
