@@ -186,6 +186,13 @@ https://moonlitdessert.github.io/MoonLitDessert/
             <p class="product-info">专注达（Concerta），一种中枢神经兴奋剂。常用于治疗注意力缺陷多动障碍（ADHD）。它能有效提升专注力和集中度，减少分心情况，特别适用于需要改善注意力和自我控制的患者。此药物适用于长期治疗计划，有助于提高日常生活和学习的质量。</p>
         </details>
     </li>
+    <li>
+        <details>
+            <summary>Rubifen 20粒 1560元</summary>
+            <p class="product-info">ADHD特效药，药效稳定，持续时间更长，拥有更出色的效果。此商品暂未上架，但已可下单与发货。</p>
+            <p class="product-info2">（泰国直邮）</p>
+        </details>
+    </li>
 </ul>
 
     <p class="important-note">点击药品条目可以查看相关说明。<p>&nbsp;</p></p>
