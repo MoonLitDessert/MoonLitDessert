@@ -155,12 +155,7 @@ https://moonlitdessert.github.io/MoonLitDessert/
             <p class="product-info">更大容量的PKR抑制剂，适合长期使用，提供持续的认知能力提升。</p>
         </details>
     </li>
-    <li>
-        <details>
-            <summary>思诺思 10mg 100粒 4550元</summary>
-            <p class="product-info">思诺思（Modafinil），一种高效的唤醒剂，用于管理过度嗜睡症状，尤其在治疗阻塞性睡眠呼吸暂停和纳尔科勒普症中效果显著。通过刺激多巴胺和去甲肾上腺素传递系统，显著提升警觉性、改善记忆和增强认知功能，特别适合需要长时间集中精力的职业人士和学生。</p>
-        </details>
-    </li>
+
     <li>
         <details>
             <summary>佐匹克隆 7.5mg 500粒/瓶 4550元</summary>
@@ -174,12 +169,7 @@ https://moonlitdessert.github.io/MoonLitDessert/
             <p class="product-info">氯硝西泮（Clonazepam），一种苯二氮卓类镇静剂，广泛用于治疗癫痫和控制惊恐障碍。通过提高大脑中GABA的效果降低神经活动，减少发作频率，同时缓解急性焦虑，帮助患者在高压环境下保持镇静。</p>
         </details>
     </li>
-    <li>
-        <details>
-            <summary>心达悦 20mg 28粒/盒 572元</summary> 
-            <p class="product-info">心达悦（Escitalopram），一种SSRI类抗抑郁药，专用于处理重度抑郁症和广泛性焦虑症。通过增加大脑血清素浓度，有效改善情绪，降低焦虑和抑郁症状，适合寻求情绪改善和日常功能恢复的患者。</p>
-        </details>
-    </li>
+
     <li>
         <details>
             <summary>专注达 18mg×15粒 1300元</summary>
