@@ -155,7 +155,6 @@ https://moonlitdessert.github.io/MoonLitDessert/
             <p class="product-info">更大容量的PKR抑制剂，适合长期使用，提供持续的认知能力提升。</p>
         </details>
     </li>
-
     <li>
         <details>
             <summary>佐匹克隆 7.5mg 500粒/瓶 4550元</summary>
@@ -169,7 +168,6 @@ https://moonlitdessert.github.io/MoonLitDessert/
             <p class="product-info">氯硝西泮（Clonazepam），一种苯二氮卓类镇静剂，广泛用于治疗癫痫和控制惊恐障碍。通过提高大脑中GABA的效果降低神经活动，减少发作频率，同时缓解急性焦虑，帮助患者在高压环境下保持镇静。</p>
         </details>
     </li>
-
     <li>
         <details>
             <summary>专注达 18mg×15粒 1300元</summary>
